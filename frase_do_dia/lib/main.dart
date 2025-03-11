@@ -14,19 +14,7 @@ void main() {
         decoration: BoxDecoration(
           border: Border.all(width: 3, color: Colors.white),
         ),
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: <Widget>[
-            Text("t1"),
-            Text("t2"),
-            Text("t3"),
-            /*Text(
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere rhoncus velit, eget commodo",
-              textAlign: TextAlign.justify,
-          )*/
-          ],
-        ),
+        child: Image.asset("images/terra.jpg", fit: BoxFit.cover),
       ),
     ),
   );
