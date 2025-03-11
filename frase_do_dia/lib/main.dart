@@ -4,13 +4,27 @@ void main() {
   runApp(
     MaterialApp(
       title: "Frase do dia",
-      home: Column(
-        children: <Widget>[
-          Text("T1"), 
-          Text("T2"),
-          Text("T3")],
+      home: Container(
+        color: Colors.white,
+        child: Column(
+          children: <Widget>[
+            Text(
+              "lorem ipsum",
+              style: TextStyle(
+                fontSize: 35,
+                fontWeight: FontWeight.bold,
+                fontStyle: FontStyle.italic,
+                letterSpacing: 0,
+                wordSpacing: 0,
+                decoration: TextDecoration.underline,
+                decorationStyle: TextDecorationStyle.solid,
+                decorationColor: Colors.black,
+                color: Colors.black,
+              ),
+            ),
+          ],
+        ),
       ),
-      //home:Container(color: Colors.white,),
     ),
   );
 }
