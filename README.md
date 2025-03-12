@@ -1,6 +1,6 @@
 ## Criação do projeto base:
  
- `Flutter create APP_frase-do-dia`
+ ```Flutter create APP_frase-do-dia```
  
  ## Quando usar child e children: 
  
@@ -15,8 +15,8 @@
  
  
  ## Formatação de textos: 
- o `Text` possui diversos estilos, aqui vai alguns: 
- `       Text(
+ o  ```Text ``` possui diversos estilos, aqui vai alguns: 
+    ```Text(
            "lorem ipsum",
            textAlign: TextAlign.justify,
             style: TextStyle(
@@ -30,7 +30,7 @@
             decorationColor: Colors.black,
            color: Colors.black,
     ),
-  ),`
+  ), ```
  
  ## Buttons: 
  O TextButton é um botão simples, sem sombra, e com texto. Ele é mais discreto e é ideal para ações menos destacadas.
