@@ -16,7 +16,7 @@
  
  ## Formatação de textos: 
  o  ```Text ``` possui diversos estilos, aqui vai alguns: 
-    ```Text(
+    `Text(
            "lorem ipsum",
            textAlign: TextAlign.justify,
             style: TextStyle(
@@ -30,7 +30,7 @@
             decorationColor: Colors.black,
            color: Colors.black,
     ),
-  ),
+  ),`
  
  ## Buttons: 
  O TextButton é um botão simples, sem sombra, e com texto. Ele é mais discreto e é ideal para ações menos destacadas.
