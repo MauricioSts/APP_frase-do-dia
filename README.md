@@ -30,7 +30,7 @@
             decorationColor: Colors.black,
            color: Colors.black,
     ),
-  ), ```
+  ),
  
  ## Buttons: 
  O TextButton é um botão simples, sem sombra, e com texto. Ele é mais discreto e é ideal para ações menos destacadas.
