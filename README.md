@@ -1,4 +1,4 @@
-# O que eu aprendi na criação do meu primeiro app? 
+# O que eu aprendi na criação do meu 1° app? 
 
 ## Criação do projeto base:
  
